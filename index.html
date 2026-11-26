@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boomhill Open Assets</title>
+<meta name="description" content="크레이지아케이드, 크레이지아케이드 BnB M, 버블파이터, 버블파이터 어드벤처, 에어라이더 공개 이미지와 3D 모델 뷰어">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6.5' fill='%2358c4ff' stroke='%23fff' stroke-width='1.5'/%3E%3Ccircle cx='5.8' cy='5.6' r='1.6' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@2.40.3/dist/galmuri.css">
+<link rel="stylesheet" href="viewer/app.css">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="#/" aria-label="처음으로">
+    <span class="mark" aria-hidden="true"></span>
+    <span class="brand-text"><b>Boomhill</b> Open Assets</span>
+  </a>
+  <nav id="tabs" class="tabs" aria-label="게임"></nav>
+  <nav class="links" aria-label="안내"><a href="guide.html">자료 안내</a><a href="demo.html">기술 예시</a><a href="terms.html">이용 조건</a></nav>
+</header>
+<div class="warn-bar" role="note"><b>경고</b><span>Lab Track 참가 승인을 받은 창작자만 이용할 수 있습니다. 승인받지 않은 사내 제작, 학습, 연구, 상업 등 모든 이용을 제한합니다.</span></div>
+
+<main id="home" class="home" hidden>
+  <section class="hero">
+    <p class="kicker">NEXON 붐힐 월드 에셋</p>
+    <h1>다섯 가지 게임의 에셋을 제공합니다</h1>
+    <p class="lede">크레이지파크와 붐힐마을을 무대로 한 게임들의 2D 이미지와 3D 모델을 모았습니다. 게임을 고르면 바로 볼 수 있고, 참가 승인을 받은 창작자는 내려받아 쓸 수 있습니다.</p>
+  </section>
+  <section class="warn-box" role="note" aria-label="이용 제한">
+    <h2>Lab Track 참가 승인을 받은 창작자만 이용할 수 있습니다</h2>
+    <p>공개되어 있어도 이용이 허락된 것은 아닙니다. Lab Track 참가 승인을 받은 창작자 외에는 사내 제작, 학습, 연구, 개인 공부, 비상업, 상업 등 목적과 관계없이 모든 이용을 제한합니다.</p>
+    <p class="small">이용 조건은 <a href="terms.html#license">LICENSE</a>와 <a href="terms.html#notice">NOTICE</a>를 따릅니다. 승인받은 경우의 받는 법과 쓰는 법은 <a href="guide.html">자료 안내</a>와 <a href="demo.html">기술 예시</a>에 있습니다.</p>
+  </section>
+  <section id="gameCards" class="cards" aria-label="게임 목록"></section>
+  <section class="notice-box">
+    <h2>미리보기와 원본</h2>
+    <p>3D 모델은 브라우저에서 바로 볼 수 있는 미리보기와 썸네일로 제공합니다. 원본 zip 은 모델을 고르면 오른쪽 미리보기에서 내려받을 수 있습니다.</p>
+  </section>
+  <section class="notice-box">
+    <h2>통합세계관</h2>
+    <p>다오와 배찌의 세계를 하나로 정리한 통합 세계관입니다. 붐힐마을과 그 구역, 인물과 관계, 이어지는 이야기를 위 메뉴의 <a href="lore/">통합세계관</a>에서 볼 수 있습니다.</p>
+  </section>
+</main>
+
+<div id="browser" class="browser" hidden>
+  <aside class="side" aria-label="묶음">
+    <div class="game-head">
+      <h2 id="gameTitle"></h2>
+      <p id="gameAbout" class="about"></p>
+    </div>
+    <nav id="groups" class="groups"></nav>
+  </aside>
+  <section class="list" aria-label="자산 목록">
+    <p class="preview-note"><b>미리보기 안내</b>3D 는 브라우저용 미리보기입니다. 편집에는 원본 zip 을 쓰세요.</p>
+    <div class="tools">
+      <input id="search" type="search" placeholder="이름으로 찾기" autocomplete="off">
+      <span id="count" class="count"></span>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div id="sentinel" class="sentinel" aria-hidden="true"></div>
+  </section>
+  <aside id="detail" class="detail" aria-label="자산 상세">
+    <p class="hint">그림을 고르면 여기에 나옵니다.<br><kbd>←</kbd> <kbd>→</kbd> 옆 그림, <kbd>Esc</kbd> 닫기</p>
+  </aside>
+</div>
+
+
+<footer class="foot">
+  <span>이용 조건은 <a href="terms.html#license">LICENSE</a> 와 <a href="terms.html#notice">NOTICE</a> 를 따릅니다.</span>
+</footer>
+<script type="importmap">{"imports": {"three": "./viewer/vendor/three/three.module.js", "three/addons/": "./viewer/vendor/three/addons/"}}</script>
+<script src="viewer/app.js"></script>
+</body>
+</html>

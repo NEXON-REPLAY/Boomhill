@@ -1,0 +1,624 @@
+{
+ "games": [
+  {
+   "about": "물풍선으로 상대를 가두는 PC 온라인 액션 게임",
+   "base": "../Boomhill-BnB/2d/",
+   "format": "bnb",
+   "groups": [
+    {
+     "count": 1222,
+     "frames": 5795,
+     "id": "010_ui",
+     "title": "UI"
+    },
+    {
+     "count": 2127,
+     "frames": 17100,
+     "id": "020_bomber",
+     "title": "캐릭터"
+    },
+    {
+     "count": 9116,
+     "frames": 134189,
+     "id": "030_avatar",
+     "title": "아바타, 이모션"
+    },
+    {
+     "count": 3404,
+     "frames": 9324,
+     "id": "040_tile",
+     "title": "타일, 장식"
+    },
+    {
+     "count": 144,
+     "frames": 413,
+     "id": "050_item",
+     "title": "아이템"
+    },
+    {
+     "count": 697,
+     "frames": 7153,
+     "id": "060_effect",
+     "title": "효과"
+    },
+    {
+     "count": 1127,
+     "frames": 7205,
+     "id": "070_monster",
+     "title": "몬스터"
+    },
+    {
+     "count": 248,
+     "frames": 1203,
+     "id": "080_hiddencatch",
+     "title": "히든캐치"
+    }
+   ],
+   "id": "bnb",
+   "manifest": "../Boomhill-BnB/2d/bundle-manifest.json",
+   "title": "크레이지아케이드",
+   "title_en": "Crazy Arcade (BnB)",
+   "totals": {
+    "assets": 18085,
+    "bytes": 176377639,
+    "frames": 182382
+   },
+   "repo": {
+    "name": "Boomhill-BnB",
+    "url": "https://github.com/NEXON-REPLAY/Boomhill-BnB",
+    "site": "../Boomhill-BnB/"
+   }
+  },
+  {
+   "about": "모바일 물풍선 액션 게임",
+   "base": "../Boomhill-BnBM/2d/",
+   "format": "boomhill",
+   "groups": [
+    {
+     "count": 2198,
+     "frames": 2198,
+     "id": "010_ui",
+     "title": "UI"
+    },
+    {
+     "count": 1643,
+     "frames": 1643,
+     "id": "020_icon",
+     "title": "아이콘"
+    },
+    {
+     "count": 835,
+     "frames": 835,
+     "id": "030_map",
+     "title": "맵"
+    },
+    {
+     "count": 419,
+     "frames": 419,
+     "id": "040_monster",
+     "title": "몬스터 모드"
+    },
+    {
+     "count": 477,
+     "frames": 477,
+     "id": "050_effect",
+     "title": "효과"
+    }
+   ],
+   "id": "bnb-mobile",
+   "manifest": "../Boomhill-BnBM/2d/manifest.json",
+   "models": {
+    "base": "../Boomhill-BnBM/3d/",
+    "categories": [
+     {
+      "count": 11,
+      "dir": "010_character",
+      "id": "3d_character",
+      "title": "캐릭터"
+     },
+     {
+      "count": 221,
+      "dir": "020_costume",
+      "id": "3d_costume",
+      "title": "코스튬"
+     },
+     {
+      "count": 10,
+      "dir": "030_vehicle",
+      "id": "3d_vehicle",
+      "title": "탈것"
+     },
+     {
+      "count": 10,
+      "dir": "040_pet",
+      "id": "3d_pet",
+      "title": "펫"
+     },
+     {
+      "count": 40,
+      "dir": "050_monster",
+      "id": "3d_monster",
+      "title": "몬스터"
+     },
+     {
+      "count": 528,
+      "dir": "060_accessory",
+      "id": "3d_accessory",
+      "title": "액세서리"
+     }
+    ],
+    "originals": {
+     "base": "https://github.com/NEXON-REPLAY/Boomhill-BnBM/releases/download/3d-originals-v1/",
+     "files": {
+      "3d_accessory": [
+       {
+        "bytes": 8035938,
+        "count": 528,
+        "name": "bnb-mobile-3d-accessory.zip"
+       }
+      ],
+      "3d_character": [
+       {
+        "bytes": 11223097,
+        "count": 11,
+        "name": "bnb-mobile-3d-character.zip"
+       }
+      ],
+      "3d_costume": [
+       {
+        "bytes": 51952832,
+        "count": 221,
+        "name": "bnb-mobile-3d-costume.zip"
+       }
+      ],
+      "3d_monster": [
+       {
+        "bytes": 3692930,
+        "count": 40,
+        "name": "bnb-mobile-3d-monster.zip"
+       }
+      ],
+      "3d_pet": [
+       {
+        "bytes": 755350,
+        "count": 10,
+        "name": "bnb-mobile-3d-pet.zip"
+       }
+      ],
+      "3d_vehicle": [
+       {
+        "bytes": 1111917,
+        "count": 10,
+        "name": "bnb-mobile-3d-vehicle.zip"
+       }
+      ]
+     }
+    },
+    "totals": {
+     "bytes": 21929314,
+     "models": 820
+    }
+   },
+   "title": "크레이지아케이드 BnB M",
+   "title_en": "Crazy Arcade BnB M",
+   "totals": {
+    "assets": 5572,
+    "bytes": 131127672,
+    "frames": 5572
+   },
+   "repo": {
+    "name": "Boomhill-BnBM",
+    "url": "https://github.com/NEXON-REPLAY/Boomhill-BnBM",
+    "site": "../Boomhill-BnBM/"
+   }
+  },
+  {
+   "about": "물총으로 겨루는 PC 온라인 3인칭 슈팅 게임",
+   "base": "../Boomhill-BubbleFighter/2d/",
+   "format": "boomhill",
+   "groups": [
+    {
+     "count": 2300,
+     "frames": 6024,
+     "id": "010_ui",
+     "title": "UI"
+    },
+    {
+     "count": 1795,
+     "frames": 2968,
+     "id": "020_ingame",
+     "title": "인게임 HUD, 조준, 아이템"
+    },
+    {
+     "count": 2516,
+     "frames": 3776,
+     "id": "030_shop",
+     "title": "상점, 아이템 아이콘"
+    },
+    {
+     "count": 429,
+     "frames": 430,
+     "id": "040_map",
+     "title": "맵 미리보기, 미니맵"
+    }
+   ],
+   "id": "bubblefighter",
+   "manifest": "../Boomhill-BubbleFighter/2d/manifest.json",
+   "models": {
+    "base": "../Boomhill-BubbleFighter/3d/",
+    "categories": [
+     {
+      "count": 164,
+      "dir": "010_character",
+      "id": "3d_character",
+      "title": "캐릭터"
+     },
+     {
+      "count": 976,
+      "dir": "020_weapon",
+      "id": "3d_weapon",
+      "title": "무기"
+     },
+     {
+      "count": 431,
+      "dir": "030_item",
+      "id": "3d_item",
+      "title": "장비, 아이템"
+     },
+     {
+      "count": 11,
+      "dir": "040_npc",
+      "id": "3d_npc",
+      "title": "NPC, 몬스터"
+     },
+     {
+      "count": 17,
+      "dir": "050_prop",
+      "id": "3d_prop",
+      "title": "기타 오브젝트"
+     },
+     {
+      "count": 130,
+      "dir": "060_map",
+      "id": "3d_map",
+      "title": "맵"
+     },
+     {
+      "count": 21,
+      "dir": "070_scene",
+      "id": "3d_scene",
+      "title": "연출 장면"
+     }
+    ],
+    "originals": {
+     "base": "https://github.com/NEXON-REPLAY/Boomhill-BubbleFighter/releases/download/3d-originals-v1/",
+     "files": {
+      "3d_character": [
+       {
+        "bytes": 180618671,
+        "count": 164,
+        "name": "bubblefighter-3d-character.zip"
+       }
+      ],
+      "3d_item": [
+       {
+        "bytes": 13984726,
+        "count": 431,
+        "name": "bubblefighter-3d-item.zip"
+       }
+      ],
+      "3d_map": [
+       {
+        "bytes": 416058591,
+        "count": 130,
+        "name": "bubblefighter-3d-map.zip"
+       }
+      ],
+      "3d_npc": [
+       {
+        "bytes": 2070129,
+        "count": 11,
+        "name": "bubblefighter-3d-npc.zip"
+       }
+      ],
+      "3d_prop": [
+       {
+        "bytes": 1715143,
+        "count": 17,
+        "name": "bubblefighter-3d-prop.zip"
+       }
+      ],
+      "3d_scene": [
+       {
+        "bytes": 54896150,
+        "count": 21,
+        "name": "bubblefighter-3d-scene.zip"
+       }
+      ],
+      "3d_weapon": [
+       {
+        "bytes": 60376028,
+        "count": 976,
+        "name": "bubblefighter-3d-weapon.zip"
+       }
+      ]
+     }
+    },
+    "totals": {
+     "bytes": 272904354,
+     "models": 1750
+    }
+   },
+   "title": "버블파이터",
+   "title_en": "BubbleFighter",
+   "totals": {
+    "assets": 7040,
+    "bytes": 165145770,
+    "frames": 13198
+   },
+   "repo": {
+    "name": "Boomhill-BubbleFighter",
+    "url": "https://github.com/NEXON-REPLAY/Boomhill-BubbleFighter",
+    "site": "../Boomhill-BubbleFighter/"
+   }
+  },
+  {
+   "about": "모바일 액션 게임",
+   "base": "../Boomhill-BubbleFighterAdventure/2d/",
+   "format": "boomhill",
+   "groups": [
+    {
+     "count": 312,
+     "frames": 312,
+     "id": "010_ui",
+     "title": "UI"
+    },
+    {
+     "count": 143,
+     "frames": 143,
+     "id": "020_item",
+     "title": "아이템, 무기 아이콘"
+    },
+    {
+     "count": 54,
+     "frames": 54,
+     "id": "030_map",
+     "title": "맵, 배경"
+    },
+    {
+     "count": 119,
+     "frames": 119,
+     "id": "040_fx",
+     "title": "효과 텍스처"
+    },
+    {
+     "count": 81,
+     "frames": 81,
+     "id": "050_texture",
+     "title": "텍스처(캐릭터, 맵, 무기)"
+    }
+   ],
+   "id": "bubblefighter-adventure",
+   "manifest": "../Boomhill-BubbleFighterAdventure/2d/manifest.json",
+   "models": {
+    "base": "../Boomhill-BubbleFighterAdventure/3d/",
+    "categories": [
+     {
+      "count": 47,
+      "dir": "010_character",
+      "id": "3d_character",
+      "title": "캐릭터"
+     },
+     {
+      "count": 45,
+      "dir": "020_weapon",
+      "id": "3d_weapon",
+      "title": "무기, 아이템"
+     },
+     {
+      "count": 16,
+      "dir": "030_map",
+      "id": "3d_map",
+      "title": "맵"
+     },
+     {
+      "count": 492,
+      "dir": "040_anim",
+      "id": "3d_anim",
+      "title": "애니메이션"
+     }
+    ],
+    "originals": {
+     "base": "https://github.com/NEXON-REPLAY/Boomhill-BubbleFighterAdventure/releases/download/3d-originals-v1/",
+     "files": {
+      "3d_all": [
+       {
+        "bytes": 19760957,
+        "count": 629,
+        "name": "bubblefighter-adventure-3d-all.zip"
+       }
+      ]
+     }
+    },
+    "totals": {
+     "bytes": 44262336,
+     "models": 600
+    }
+   },
+   "title": "버블파이터 어드벤처",
+   "title_en": "BubbleFighter Adventure",
+   "totals": {
+    "assets": 709,
+    "bytes": 14959506,
+    "frames": 709
+   },
+   "repo": {
+    "name": "Boomhill-BubbleFighterAdventure",
+    "url": "https://github.com/NEXON-REPLAY/Boomhill-BubbleFighterAdventure",
+    "site": "../Boomhill-BubbleFighterAdventure/"
+   }
+  },
+  {
+   "about": "에어모빌로 하늘을 나는 PC 온라인 레이싱 게임",
+   "base": "../Boomhill-AirRider/2d/",
+   "format": "boomhill",
+   "groups": [
+    {
+     "count": 519,
+     "frames": 519,
+     "id": "010_gui",
+     "title": "HUD, 게이지, 결과창"
+    },
+    {
+     "count": 722,
+     "frames": 722,
+     "id": "020_stage",
+     "title": "화면(로비, 방, 상점, 튜토리얼)"
+    },
+    {
+     "count": 360,
+     "frames": 360,
+     "id": "030_dialog",
+     "title": "대화 상자"
+    },
+    {
+     "count": 491,
+     "frames": 491,
+     "id": "040_character",
+     "title": "캐릭터 텍스처"
+    },
+    {
+     "count": 254,
+     "frames": 254,
+     "id": "050_airmobile",
+     "title": "에어모빌 텍스처"
+    },
+    {
+     "count": 168,
+     "frames": 168,
+     "id": "060_item",
+     "title": "아이템"
+    },
+    {
+     "count": 135,
+     "frames": 135,
+     "id": "070_effect",
+     "title": "효과"
+    },
+    {
+     "count": 47,
+     "frames": 47,
+     "id": "080_myroom",
+     "title": "마이룸"
+    },
+    {
+     "count": 582,
+     "frames": 582,
+     "id": "090_card",
+     "title": "수집 카드, 상점, 로딩"
+    },
+    {
+     "count": 147,
+     "frames": 147,
+     "id": "100_etc",
+     "title": "기타"
+    }
+   ],
+   "id": "airrider",
+   "manifest": "../Boomhill-AirRider/2d/manifest.json",
+   "models": {
+    "base": "../Boomhill-AirRider/3d/",
+    "categories": [
+     {
+      "count": 27,
+      "dir": "010_airmobile",
+      "id": "3d_airmobile",
+      "title": "에어모빌"
+     },
+     {
+      "count": 27,
+      "dir": "020_character",
+      "id": "3d_character",
+      "title": "캐릭터"
+     },
+     {
+      "count": 28,
+      "dir": "030_track",
+      "id": "3d_track",
+      "title": "트랙"
+     },
+     {
+      "count": 3,
+      "dir": "040_boss",
+      "id": "3d_boss",
+      "title": "보스"
+     },
+     {
+      "count": 643,
+      "dir": "050_model",
+      "id": "3d_model",
+      "title": "부품, 기타 모델"
+     }
+    ],
+    "originals": {
+     "base": "https://github.com/NEXON-REPLAY/Boomhill-AirRider/releases/download/3d-originals-v1/",
+     "files": {
+      "3d_airmobile": [
+       {
+        "bytes": 3752229,
+        "count": 27,
+        "name": "airrider-3d-airmobile.zip"
+       }
+      ],
+      "3d_boss": [
+       {
+        "bytes": 1209311,
+        "count": 3,
+        "name": "airrider-3d-boss.zip"
+       }
+      ],
+      "3d_character": [
+       {
+        "bytes": 8592446,
+        "count": 27,
+        "name": "airrider-3d-character.zip"
+       }
+      ],
+      "3d_model": [
+       {
+        "bytes": 124799872,
+        "count": 643,
+        "name": "airrider-3d-model.zip"
+       }
+      ],
+      "3d_track": [
+       {
+        "bytes": 176618254,
+        "count": 28,
+        "name": "airrider-3d-track.zip"
+       }
+      ]
+     }
+    },
+    "totals": {
+     "bytes": 68961102,
+     "models": 728
+    }
+   },
+   "title": "에어라이더",
+   "title_en": "AirRider",
+   "totals": {
+    "assets": 3425,
+    "bytes": 63307823,
+    "frames": 3425
+   },
+   "repo": {
+    "name": "Boomhill-AirRider",
+    "url": "https://github.com/NEXON-REPLAY/Boomhill-AirRider",
+    "site": "../Boomhill-AirRider/"
+   }
+  }
+ ],
+ "schema": "boomhill-open-assets/site/v1",
+ "title": "Boomhill Open Assets"
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>자료 안내 | Boomhill Open Assets</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@2.40.3/dist/galmuri.css">
+<link rel="stylesheet" href="viewer/app.css">
+<link rel="stylesheet" href="viewer/doc.css">
+</head>
+<body>
+<header class="bar" data-current="guide">
+  <a class="brand" href="index.html#/"><span class="mark" aria-hidden="true"></span><span class="brand-text"><b>Boomhill</b> Open Assets</span></a>
+  <nav class="tabs" aria-label="게임"></nav>
+  <nav class="links" aria-label="안내"><a href="guide.html" aria-current="page">자료 안내</a><a href="demo.html">기술 예시</a><a href="terms.html">이용 조건</a></nav>
+</header>
+<div class="warn-bar" role="note"><b>경고</b><span>Lab Track 참가 승인을 받은 창작자만 이용할 수 있습니다. 승인받지 않은 사내 제작, 학습, 연구, 상업 등 모든 이용을 제한합니다.</span></div>
+<main class="doc">
+<h1 id="자료-안내">자료 안내</h1>
+<p>크레이지아케이드, 크레이지아케이드 BnB M, 버블파이터, 버블파이터 어드벤처, 에어라이더의 2D 이미지와 3D 모델을 열람할 수 있도록 정리한 자료입니다. 이 문서는 무엇이 들어 있고 어떤 조건으로 공개되어 있는지, Lab Track 참가 승인을 받은 창작자가 제공 리소스를 어떻게 받고 쓰는지를 정리합니다.</p>
+<blockquote>공개되어 있다고 해서 이용이 허락된 것은 아닙니다. 이용 조건은 저장소의 <a href="terms.html#license">LICENSE</a> 와 <a href="terms.html#notice">NOTICE</a> 를 따릅니다.</blockquote>
+<h2 id="1-무엇이-들어-있나">1. 무엇이 들어 있나</h2>
+<div class="tbl"><table><thead><tr><th>게임</th><th>장르, 플랫폼</th><th>들어 있는 그림</th><th>3D 모델</th></tr></thead><tbody><tr><td>크레이지아케이드</td><td>PC 온라인 액션</td><td>캐릭터, 아바타와 이모션, 맵 타일과 장식, 아이템, 효과, 몬스터, UI</td><td>없음(2D 게임)</td></tr><tr><td>크레이지아케이드 BnB M</td><td>모바일 액션(Unity)</td><td>UI, 아이템 아이콘, 맵, 몬스터 모드, 효과</td><td>캐릭터, 코스튬, 탈것, 펫, 몬스터, 액세서리</td></tr><tr><td>버블파이터</td><td>PC 온라인 3인칭 슈팅</td><td>UI, 인게임 HUD와 조준선, 상점 아이템 아이콘, 맵 미리보기와 미니맵</td><td>캐릭터(동작, 표정), 무기, 장비, NPC, 맵(게임 마커), 연출 장면</td></tr><tr><td>버블파이터 어드벤처</td><td>모바일 액션(Unity)</td><td>UI 낱장 스프라이트, 아이템과 무기 아이콘, 맵 배경, 효과 텍스처, 캐릭터와 맵 텍스처</td><td>캐릭터, 무기, 맵, 애니메이션</td></tr><tr><td>에어라이더</td><td>PC 온라인 비행 레이싱</td><td>HUD와 게이지, 화면 UI, 대화 상자, 캐릭터와 에어모빌 텍스처, 아이템, 효과, 수집 카드</td><td>에어모빌, 캐릭터, 트랙, NPC, 보스, 부품</td></tr></tbody></table></div>
+<p>2D 는 그림과 그 그림을 쓰는 데 필요한 프레임 정보로 이루어져 있습니다. 모든 그림은 PNG 입니다. 여러 프레임으로 된 그림(버튼 상태, 캐릭터 동작 등)은 한 장의 스프라이트 시트와, 시트 안 프레임 위치를 적은 아틀라스 JSON 이 짝을 이룹니다.</p>
+<p>3D 는 두 가지로 냅니다.</p>
+<div class="tbl"><table><thead><tr><th>구분</th><th>어디에</th><th>내용</th></tr></thead><tbody><tr><td>미리보기</td><td>이 사이트(뷰어)</td><td>압축한 GLB(메시와 동작 데이터 압축, 동작은 초당 30프레임으로 다시 샘플링), 텍스처 긴 변 512px, 버블파이터 캐릭터와 BnB M 모델은 기본 동작만. 브라우저에서 바로 돌려 봅니다</td></tr><tr><td>원본</td><td>게임 저장소 Releases 의 zip(분류마다)</td><td>압축하지 않은 GLB, 원래 해상도 PNG 텍스처, 전체 동작. 편집용 파일입니다</td></tr></tbody></table></div>
+<h2 id="2-이용-조건">2. 이용 조건</h2>
+<p>이 저장소의 제공 리소스는 열람을 위해 공개되어 있습니다. 공개되어 있다고 해서 이용이 허락된 것은 아닙니다. 복제, 수정, 재배포, 2차적 저작물 작성, 기계 학습을 포함한 모든 이용을 상업적이든 비상업적이든 허락하지 않습니다. 제공 리소스는 NEXON REPLAY Lab Track 이용약관에 동의하고 참가 승인을 받은 창작자만, 이용약관과 IP 활용 가이드가 정한 범위 안에서 이용할 수 있습니다.</p>
+<p>아래 3장과 4장은 Lab Track 참가 승인을 받은 창작자를 위한 기술 안내입니다.</p>
+<h2 id="3-받는-법">3. 받는 법</h2>
+<p>Lab Track 참가 승인을 받은 창작자를 위한 안내입니다. 게임마다 저장소와 사이트가 따로 있습니다. 뷰어, 세계관, 이 안내가 있는 허브 저장소는 <a href="https://github.com/NEXON-REPLAY/Boomhill">Boomhill</a>, 사이트는 <a href="https://nexon-replay.github.io/Boomhill/">nexon-replay.github.io/Boomhill/</a> 입니다.</p>
+<div class="tbl"><table><thead><tr><th>게임</th><th>게임 저장소</th><th>게임 사이트</th></tr></thead><tbody><tr><td>크레이지아케이드</td><td><a href="https://github.com/NEXON-REPLAY/Boomhill-BnB">Boomhill-BnB</a></td><td><a href="https://nexon-replay.github.io/Boomhill-BnB/">nexon-replay.github.io/Boomhill-BnB/</a></td></tr><tr><td>크레이지아케이드 BnB M</td><td><a href="https://github.com/NEXON-REPLAY/Boomhill-BnBM">Boomhill-BnBM</a></td><td><a href="https://nexon-replay.github.io/Boomhill-BnBM/">nexon-replay.github.io/Boomhill-BnBM/</a></td></tr><tr><td>버블파이터</td><td><a href="https://github.com/NEXON-REPLAY/Boomhill-BubbleFighter">Boomhill-BubbleFighter</a></td><td><a href="https://nexon-replay.github.io/Boomhill-BubbleFighter/">nexon-replay.github.io/Boomhill-BubbleFighter/</a></td></tr><tr><td>버블파이터 어드벤처</td><td><a href="https://github.com/NEXON-REPLAY/Boomhill-BubbleFighterAdventure">Boomhill-BubbleFighterAdventure</a></td><td><a href="https://nexon-replay.github.io/Boomhill-BubbleFighterAdventure/">nexon-replay.github.io/Boomhill-BubbleFighterAdventure/</a></td></tr><tr><td>에어라이더</td><td><a href="https://github.com/NEXON-REPLAY/Boomhill-AirRider">Boomhill-AirRider</a></td><td><a href="https://nexon-replay.github.io/Boomhill-AirRider/">nexon-replay.github.io/Boomhill-AirRider/</a></td></tr></tbody></table></div>
+<p>아래에서 <code>&lt;게임 사이트&gt;</code> 는 위 표의 게임 사이트 주소(예: <code>https://nexon-replay.github.io/Boomhill-BnB/</code>)입니다.</p>
+<div class="tbl"><table><thead><tr><th>방법</th><th>언제</th><th>어떻게</th></tr></thead><tbody><tr><td>뷰어에서 하나씩</td><td>그림 몇 장만 필요할 때</td><td>뷰어에서 그림을 고르고 'PNG 내려받기', '아틀라스 JSON'. 3D 는 '미리보기 GLB', 편집용은 '원본 zip'</td></tr><tr><td>3D 원본 묶음</td><td>모델을 게임, 편집 도구에서 쓸 때</td><td>게임 저장소의 Releases 에서 <code>&lt;게임&gt;-3d-&lt;분류&gt;.zip</code> 을 받는다(분류마다 하나, 큰 분류는 여러 부)</td></tr><tr><td>주소로 바로</td><td>웹 페이지, 코드에서 바로 쓸 때</td><td><code>&lt;게임 사이트&gt;2d/&lt;묶음&gt;/&lt;id&gt;.png</code></td></tr><tr><td>한 게임 통째로</td><td>그 게임이 전부 필요할 때</td><td>게임 저장소를 <code>git clone</code> (그림은 Git LFS 없이 일반 파일로 들어 있다)</td></tr><tr><td>내 컴퓨터에서 뷰어로</td><td>받은 것을 뷰어로 볼 때</td><td>허브와 게임 저장소를 한 폴더에 나란히 받고, 그 폴더를 정적 서버로 연다</td></tr></tbody></table></div>
+<pre data-lang="bash"><code>git clone https://github.com/NEXON-REPLAY/Boomhill.git
+git clone https://github.com/NEXON-REPLAY/Boomhill-BnB.git        # 보고 싶은 게임 저장소
+python -m http.server 8090      # http://localhost:8090/Boomhill/</code></pre>
+<h2 id="4-코드에서-쓰는-법">4. 코드에서 쓰는 법</h2>
+<h3 id="웹-canvas">웹 Canvas</h3>
+<p>아틀라스 JSON 의 <code>frames</code> 를 읽어 시트에서 잘라 그립니다. <code>animations</code> 가 있으면 그 순서와 지연(<code>frame_ms</code>)대로 넘깁니다.</p>
+<pre data-lang="js"><code>const base = &#x27;https://nexon-replay.github.io/Boomhill-BnB/2d/060_effect/&#x27;;
+const atlas = await (await fetch(base + &#x27;Bomb__Bomb00.json&#x27;)).json();
+const sheet = new Image();
+sheet.src = base + atlas.sheet.file;
+await sheet.decode();
+const ctx = document.querySelector(&#x27;canvas&#x27;).getContext(&#x27;2d&#x27;);
+ctx.imageSmoothingEnabled = false;            // 픽셀 그림은 보간하지 않는다
+const anim = atlas.animations[0];
+let step = 0;
+(function draw() {
+  const f = atlas.frames[anim.frames[step]];
+  ctx.clearRect(0, 0, 256, 256);
+  ctx.drawImage(sheet, f.x, f.y, f.w, f.h, 0, 0, f.w * 2, f.h * 2);
+  setTimeout(draw, anim.frame_ms[step]);       // 원본 지연대로
+  step = (step + 1) % anim.frames.length;
+})();</code></pre>
+<p>움직이는 예는 <a href="demo.html">기술 예시</a>에서 바로 볼 수 있습니다.</p>
+<h3 id="phaser-pixijs">Phaser, PixiJS</h3>
+<p>두 엔진이 읽는 'JSON Hash' 아틀라스로 바꾸면 그대로 씁니다.</p>
+<pre data-lang="js"><code>function toJsonHash(atlas) {
+  const frames = {};
+  for (const f of atlas.frames) {
+    if (!f.w) continue;                          // 빈 프레임은 건너뛴다
+    frames[`${atlas.name}#${f.index}`] = { frame: { x: f.x, y: f.y, w: f.w, h: f.h } };
+  }
+  return { frames, meta: { image: atlas.sheet.file, size: { w: atlas.sheet.w, h: atlas.sheet.h }, scale: 1 } };
+}
+// Phaser: this.load.atlas(&#x27;key&#x27;, sheetUrl, toJsonHash(atlas))</code></pre>
+<h3 id="3d-모델-glb">3D 모델(GLB)</h3>
+<p>사이트의 미리보기 모델은 용량을 줄이려고 glTF 확장 네 가지를 씁니다. 웹에서는 three.js 의 GLTFLoader 에 meshopt 디코더만 붙이면 그대로 읽힙니다. 게임 엔진, 편집 도구(Unity, Godot, Blender 등)에서는 원본 zip 의 GLB 를 쓰세요. 원본은 이 확장을 쓰지 않는 평범한 glTF 2.0 이고 텍스처는 PNG 입니다.</p>
+<div class="tbl"><table><thead><tr><th>확장</th><th>하는 일</th></tr></thead><tbody><tr><td><code>EXT_meshopt_compression</code>, <code>KHR_mesh_quantization</code></td><td>정점, 인덱스, 동작 자료 압축(디코더가 필요하다)</td></tr><tr><td><code>EXT_texture_webp</code></td><td>맵, 트랙처럼 텍스처를 많이 나눠 쓰는 모델은 텍스처를 <code>_shared/textures/</code> 의 WebP(미리보기, 긴 변 512px)로 두고 GLB 가 상대 경로로 가리킨다</td></tr><tr><td><code>KHR_materials_unlit</code></td><td>에어라이더 모델은 원작처럼 조명을 받지 않는다</td></tr></tbody></table></div>
+<pre data-lang="js"><code>import * as THREE from &#x27;three&#x27;;
+import { GLTFLoader } from &#x27;three/addons/loaders/GLTFLoader.js&#x27;;
+import { MeshoptDecoder } from &#x27;three/addons/libs/meshopt_decoder.module.js&#x27;;
+
+const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
+const gltf = await loader.loadAsync(&#x27;https://nexon-replay.github.io/Boomhill-BubbleFighter/3d/010_character/&lt;id&gt;.glb&#x27;);
+scene.add(gltf.scene);
+const mixer = new THREE.AnimationMixer(gltf.scene);
+mixer.clipAction(gltf.animations[0]).play();    // 캐릭터는 동작 클립이 함께 들어 있다</code></pre>
+<ul><li>원본 zip 구성은 게임 사이트의 <code>3d/</code> 와 같습니다: <code>&lt;번호_분류&gt;/&lt;id&gt;.glb</code>, <code>&lt;id&gt;.json</code>(버블파이터 캐릭터는 전체 동작의 표정 시간표, 맵은 게임 마커), <code>_shared/faces/</code>(표정 그림).</li><li>미리보기 GLB 를 따로 받을 때: 텍스처를 밖에 두는 모델(맵 등)은 GLB 와 <code>_shared/textures/</code> 를 사이트와 같은 구조로 받아야 텍스처가 붙습니다.</li><li>버블파이터 어드벤처는 원작(Unity)처럼 '조립'입니다. 파츠 GLB 와, 파츠마다 입힐 재질(텍스처, 툰 램프, 틴트, 외곽선), 배치(위치, 회전, 배율)를 적은 조립 정보가 따로 있습니다. 조립 규칙은 뷰어의 <code>viewer/plugins/bubblefighter-adventure.js</code> 에 있습니다.</li></ul>
+<h3 id="unity-godot">Unity, Godot</h3>
+<ul><li>Unity: PNG 를 Sprite(Multiple)로 가져온 뒤, 아틀라스의 사각형으로 Sprite Editor 의 칸을 만듭니다. 시트 좌표는 왼쪽 위가 원점이고 Unity 는 왼쪽 아래가 원점이므로 <code>y</code> 를 <code>시트 높이 - y - h</code> 로 바꿉니다.</li><li>Godot: <code>AtlasTexture</code> 의 <code>region</code> 에 프레임 사각형을 그대로 넣습니다(왼쪽 위 원점이 같습니다).</li><li>픽셀 그림은 필터를 끕니다(Unity Filter Mode: Point, Godot: Nearest).</li></ul>
+<h2 id="5-형식">5. 형식</h2>
+<div class="tbl"><table><thead><tr><th>파일</th><th>어디에</th><th>내용</th></tr></thead><tbody><tr><td><code>games/index.json</code></td><td>허브</td><td>게임 목록, 게임마다 사이트 주소(<code>base</code>, <code>models.base</code>), 묶음, 합계</td></tr><tr><td><code>README.md</code></td><td>게임 저장소</td><td>그 게임에 무엇이 몇 개 있는지, 원본 zip 받는 곳</td></tr><tr><td><code>2d/&lt;묶음&gt;/index.json</code></td><td>게임 저장소</td><td>묶음 안 그림 목록(id, 원래 이름, 시트 크기, 프레임 수)</td></tr><tr><td><code>2d/&lt;묶음&gt;/&lt;id&gt;.png</code></td><td>게임 저장소</td><td>그림(여러 프레임이면 스프라이트 시트)</td></tr><tr><td><code>2d/&lt;묶음&gt;/&lt;id&gt;.json</code></td><td>게임 저장소</td><td>아틀라스(프레임 사각형, 기준점, 애니메이션). 프레임이 하나뿐인 그림에는 없습니다</td></tr><tr><td><code>2d/manifest.json</code>, <code>3d/manifest.json</code></td><td>게임 저장소</td><td>파일마다 크기와 SHA-256</td></tr><tr><td><code>3d/index.json</code></td><td>게임 저장소</td><td>3D 분류 목록</td></tr><tr><td><code>3d/&lt;번호_분류&gt;/index.json</code></td><td>게임 저장소</td><td>분류 안 모델 목록(id, 원래 이름, 파일, 통계, 보기 힌트, 썸네일)</td></tr><tr><td><code>3d/&lt;번호_분류&gt;/&lt;id&gt;.glb</code>, <code>.webp</code>, <code>.json</code></td><td>게임 저장소</td><td>미리보기 모델, 썸네일, 부가 정보(표정, 맵 마커, 조립)</td></tr><tr><td><code>3d/_shared/</code></td><td>게임 저장소</td><td>여러 모델이 나눠 쓰는 텍스처, 표정 그림, 조립 파츠</td></tr></tbody></table></div>
+<p>크레이지아케이드(<code>bnb</code> 형식)는 모든 그림에 아틀라스가 있고, 매니페스트 이름이 <code>2d/bundle-manifest.json</code> 입니다. 필드 이름은 같습니다. 3D 폴더는 게임 목록의 <code>models.base</code>, 원본 zip 목록은 <code>models.originals</code> 입니다. 자세한 형식은 허브 저장소의 <code>docs/format.md</code> 에 있습니다.</p>
+<h2 id="6-갱신">6. 갱신</h2>
+<ul><li>묶음은 생성기로만 만들며 같은 원천이면 같은 바이트가 나옵니다. 갱신하면 <code>manifest.json</code> 의 해시가 바뀝니다.</li><li>그림에 문제가 있으면 그 게임 저장소의 이슈로 알려 주세요.</li></ul>
+</main>
+<footer class="foot"><span>원문: <code>docs/usage-guide.md</code></span><span>이용 조건은 <a href="terms.html#license">LICENSE</a> 와 <a href="terms.html#notice">NOTICE</a> 를 따릅니다.</span></footer>
+<script src="viewer/gnb.js"></script>
+</body>
+</html>
